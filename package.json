@@ -1,0 +1,23 @@
+{
+  "name": "quasar-sika-design-doc",
+  "version": "1.0.0",
+  "description": "quasar-sika-design说明文档",
+  "main": "index.js",
+  "author": "sikadai",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "author": {
+    "name": "sikadai",
+    "email": "sikacode@163.com",
+    "url": "http://quasar.sikacode.com"
+  },
+  "config": {
+    "port": "8080"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
