@@ -1,23 +1,37 @@
 {
-  "name": "quasar-sika-design-doc",
+  "name": "jgsrty.github.docs",
   "version": "1.0.0",
-  "description": "quasar-sika-design说明文档",
+  "description": "rty docs",
   "main": "index.js",
-  "author": {
-    "name": "sikadai",
-    "email": "sikacode@163.com",
-    "url": "http://quasar.sikacode.com"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.7.1",
-    "vuepress": "^1.7.1"
-  },
-  "config": {
-    "port": "8080"
+  "directories": {
+    "doc": "docs"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "sh": "bash deploy.sh",
+    "mysh": "bash deployGitee.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgsrty/jgsrty.github.docs.git"
+  },
+  "keywords": [
+    "docs",
+    "rty"
+  ],
+  "author": "rty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgsrty/jgsrty.github.docs/issues"
+  },
+  "homepage": "https://github.com/jgsrty/jgsrty.github.docs#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "vuepress": "^1.1.0"
+  },
+  "dependencies": {
+    "nosleep.js": "^0.9.0"
   }
 }
