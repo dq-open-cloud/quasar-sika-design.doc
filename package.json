@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "quasar-sika-design说明文档",
   "main": "index.js",
-  "author": "sikadai",
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.7.1"
-  },
   "author": {
     "name": "sikadai",
     "email": "sikacode@163.com",
     "url": "http://quasar.sikacode.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.7.1",
+    "vuepress": "^1.7.1"
   },
   "config": {
     "port": "8080"
