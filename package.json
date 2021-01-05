@@ -1,37 +1,26 @@
 {
-  "name": "jgsrty.github.docs",
+  "name": "theme-vdoing-doc",
   "version": "1.0.0",
-  "description": "rty docs",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "sh": "bash deploy.sh",
-    "mysh": "bash deployGitee.sh"
+    "deploy": "bash deploy.sh",
+    "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D",
+    "editFm": "node utils/editFrontmatter.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jgsrty/jgsrty.github.docs.git"
-  },
-  "keywords": [
-    "docs",
-    "rty"
-  ],
-  "author": "rty",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jgsrty/jgsrty.github.docs/issues"
-  },
-  "homepage": "https://github.com/jgsrty/jgsrty.github.docs#readme",
+  "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.3.1",
-    "vuepress": "^1.1.0"
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "vuepress": "^1.4.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-theme-vdoing": "^1.7.2",
+    "yamljs": "^0.3.0"
   },
-  "dependencies": {
-    "nosleep.js": "^0.9.0"
-  }
+  "dependencies": {}
 }
