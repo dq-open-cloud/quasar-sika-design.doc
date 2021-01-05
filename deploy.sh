@@ -4,7 +4,7 @@ git add .
 git commit -m 'Update documents.'
 git push
 npm run build
-cd src/.vuepress/dist
+cd doc/.vuepress/dist
 echo 'quasar.doc.sikacode.com' > CNAME  # 自定义域名
 git init -b main
 git config user.name 'dq-open-cloud'
