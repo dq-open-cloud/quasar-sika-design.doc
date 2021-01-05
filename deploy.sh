@@ -11,5 +11,5 @@ git config user.name 'dq-open-cloud'
 git config user.email '466608943@qq.com'
 git add -A
 git commit -m "deploy: $(TZ="Asia/Shanghai" date +"%Y-%m-%d %T %Z")"
-git push -f git@github.com:dq-open-cloud/quasar-sika-design-doc.git main:gh-pages
+git push -f git@github.com:dq-open-cloud/quasar-sika-design-doc.git main:main
 cd -
