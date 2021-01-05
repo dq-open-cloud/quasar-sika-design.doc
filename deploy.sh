@@ -6,7 +6,6 @@ git push
 npm run build
 cd docs/.vuepress/dist
 echo 'quasar.doc.sikacode.com' > CNAME  # 自定义域名
-git init -b main
 git config user.name 'dq-open-cloud'
 git config user.email '466608943@qq.com'
 git add -A
