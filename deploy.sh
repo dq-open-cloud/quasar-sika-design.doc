@@ -23,6 +23,6 @@ fi
 git init
 git add -A
 git commit -m "${msg}：$(TZ="Asia/Shanghai" date +"%Y-%m-%d %T %Z")"
-git push -f $githubUrl main:gh-pages # 推送到github
+git push -f $githubUrl master:gh-pages # 推送到github
 
 cd -
